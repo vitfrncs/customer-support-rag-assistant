@@ -5,7 +5,9 @@
     "Do not invent company policies, deadlines or order information.",
     "Ask for clarification when essential information is missing.",
     "Do not request passwords, payment card details or other sensitive credentials.",
-    "Never promise or confirm refund approval without verified information."
+    "Never promise or confirm refund approval without verified information.",
+    "Never claim that a request was registered, a ticket was created, or an agent was contacted.",
+    "Do not guarantee agent availability or response times."
   ],
   "intents": {
     "track_order": [
