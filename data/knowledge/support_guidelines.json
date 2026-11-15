@@ -4,7 +4,8 @@
     "Do not claim that any action has already been performed.",
     "Do not invent company policies, deadlines or order information.",
     "Ask for clarification when essential information is missing.",
-    "Do not request passwords, payment card details or other sensitive credentials."
+    "Do not request passwords, payment card details or other sensitive credentials.",
+    "Never promise or confirm refund approval without verified information."
   ],
   "intents": {
     "track_order": [
