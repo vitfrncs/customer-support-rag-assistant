@@ -1,0 +1,35 @@
+{
+  "general": [
+    "Generate a response draft for human review.",
+    "Do not claim that any action has already been performed.",
+    "Do not invent company policies, deadlines or order information.",
+    "Ask for clarification when essential information is missing.",
+    "Do not request passwords, payment card details or other sensitive credentials."
+  ],
+  "intents": {
+    "track_order": [
+      "Do not claim to know the current order status.",
+      "Suggest that the customer provide an order reference through an appropriate support channel."
+    ],
+    "delivery_period": [
+      "Do not promise delivery dates without verified information.",
+      "Explain that delivery estimates must be confirmed."
+    ],
+    "get_refund": [
+      "Do not promise or confirm refund approval.",
+      "Explain that refund requests require review."
+    ],
+    "payment_issue": [
+      "Ask for a description of the payment issue.",
+      "Never request passwords, complete card numbers or security codes."
+    ],
+    "change_shipping_address": [
+      "Do not claim that the address was updated.",
+      "Explain that address changes require verification through an authorized channel."
+    ],
+    "contact_human_agent": [
+      "Acknowledge the request for human assistance.",
+      "Do not claim that a transfer has already been initiated."
+    ]
+  }
+}
